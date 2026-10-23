@@ -1,0 +1,782 @@
+[
+ {
+  "handle": "@3blue1brown",
+  "name": "3Blue1Brown",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "tier": 1
+ },
+ {
+  "handle": "@AICoffeeBreak",
+  "name": "AI Coffee Break with Letitia",
+  "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+  "tier": 1
+ },
+ {
+  "handle": "@aiDotEngineer",
+  "name": "AI Engineer",
+  "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+  "tier": 1
+ },
+ {
+  "handle": "@aiexplained-official",
+  "name": "AI Explained",
+  "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+  "tier": 1
+ },
+ {
+  "handle": "@AladdinPersson",
+  "name": "Aladdin Persson",
+  "channel_id": "UCkzW5JSFwvKRjXABI-UTAkQ",
+  "tier": 1
+ },
+ {
+  "handle": "@AndrejKarpathy",
+  "name": "Andrej Karpathy",
+  "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+  "tier": 1
+ },
+ {
+  "handle": "@ArjanCodes",
+  "name": "ArjanCodes",
+  "channel_id": "UCVhQ2NnY5Rskt6UjCUkJ_DA",
+  "tier": 1
+ },
+ {
+  "handle": "@ArtemKirsanov",
+  "name": "Artem Kirsanov",
+  "channel_id": "UCR2uRTQ53V_egXKFflMMaaw",
+  "tier": 1
+ },
+ {
+  "handle": "@chrishayuk",
+  "name": "Chris Hay",
+  "channel_id": "UCncVoOXAma1zJUNTJGL6Ncw",
+  "tier": 1
+ },
+ {
+  "handle": "@CodeEmporium",
+  "name": "CodeEmporium",
+  "channel_id": "UC5_6ZD6s8klmMu9TXEB_1IA",
+  "tier": 1
+ },
+ {
+  "handle": "@computerphile",
+  "name": "Computerphile",
+  "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+  "tier": 1
+ },
+ {
+  "handle": "@CS50",
+  "name": "CS50",
+  "channel_id": "UCcabW7890RKJzL968QWEykA",
+  "tier": 1
+ },
+ {
+  "handle": "@DeepLearningAI",
+  "name": "DeepLearningAI",
+  "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+  "tier": 1
+ },
+ {
+  "handle": "@DwarkeshPatel",
+  "name": "Dwarkesh Patel",
+  "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+  "tier": 1
+ },
+ {
+  "handle": "@EdanMeyer",
+  "name": "Edan Meyer",
+  "channel_id": "UC66Ggxy8MHX9DCDohdRYDTA",
+  "tier": 1
+ },
+ {
+  "handle": "@freecodecamp",
+  "name": "freeCodeCamp.org",
+  "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+  "tier": 1
+ },
+ {
+  "handle": "@GoogleDeepMind",
+  "name": "Google DeepMind",
+  "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+  "tier": 1
+ },
+ {
+  "handle": "@huggingface",
+  "name": "Hugging Face",
+  "channel_id": "UCHlNU7kIZhRgSbhHvFoy72w",
+  "tier": 1
+ },
+ {
+  "handle": "@IPAMUCLA",
+  "name": "Institute for Pure & Applied Mathematics (IPAM)",
+  "channel_id": "UCGzuiiLdQZu9wxDNJHO_JnA",
+  "tier": 1
+ },
+ {
+  "handle": "@jamesbriggs",
+  "name": "James Briggs",
+  "channel_id": "UCv83tO5cePwHMt1952IVVHw",
+  "tier": 1
+ },
+ {
+  "handle": "@JeffHeaton",
+  "name": "Jeff Heaton",
+  "channel_id": "UCTYtOA3BDIIjlMupSFc9Txg",
+  "tier": 1
+ },
+ {
+  "handle": "@jeremyhoward",
+  "name": "Jeremy Howard",
+  "channel_id": "UCIfiSGCj1APhdEkVCGYXM_g",
+  "tier": 1
+ },
+ {
+  "handle": "@LangChain",
+  "name": "LangChain",
+  "channel_id": "UCC-lyoTfSrcJzA1ab3APAgw",
+  "tier": 1
+ },
+ {
+  "handle": "@latentspacepod",
+  "name": "Latent Space",
+  "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+  "tier": 1
+ },
+ {
+  "handle": "@serranoacademy",
+  "name": "Luis Serrano Academy",
+  "channel_id": "UCgBncpylJ1kiVaPyP-PZauQ",
+  "tier": 1
+ },
+ {
+  "handle": "@MachineLearningStreetTalk",
+  "name": "Machine Learning Street Talk",
+  "channel_id": "UCMLtBahI5DMrt0NPvDSoIRQ",
+  "tier": 1
+ },
+ {
+  "handle": "@MachineLearningwithPhil",
+  "name": "Machine Learning with Phil",
+  "channel_id": "UC58v9cLitc8VaCjrcKyAbrw",
+  "tier": 1
+ },
+ {
+  "handle": "@ManningPublications",
+  "name": "Manning Publications",
+  "channel_id": "UCDia_lkNYKLJVLRLQl_-pFw",
+  "tier": 1
+ },
+ {
+  "handle": "@mathemaniac",
+  "name": "Mathemaniac",
+  "channel_id": "UCrlZs71h3mTR45FgQNINfrg",
+  "tier": 1
+ },
+ {
+  "handle": "@MicrosoftResearch",
+  "name": "Microsoft Research",
+  "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+  "tier": 1
+ },
+ {
+  "handle": "@mitocw",
+  "name": "MIT OpenCourseWare",
+  "channel_id": "UCEBb1b_L6zDS3xTUrIALZOw",
+  "tier": 1
+ },
+ {
+  "handle": "@PyTorch",
+  "name": "PyTorch",
+  "channel_id": "UCWXI5YeOsh03QvJ59PMaXFw",
+  "tier": 1
+ },
+ {
+  "handle": "@ritvikmath",
+  "name": "ritvikmath",
+  "channel_id": "UCUcpVoi5KkJmnE3bvEhHR0Q",
+  "tier": 1
+ },
+ {
+  "handle": "@RobertMilesAI",
+  "name": "Robert Miles AI Safety",
+  "channel_id": "UCLB7AzTwc6VFZrBsO2ucBMg",
+  "tier": 1
+ },
+ {
+  "handle": "@samwitteveenai",
+  "name": "Sam Witteveen",
+  "channel_id": "UC55ODQSvARtgSyc8ThfiepQ",
+  "tier": 1
+ },
+ {
+  "handle": "@SebastianRaschka",
+  "name": "Sebastian Raschka",
+  "channel_id": "UC_CzsS7UTjcxJ-xXp1ftxtA",
+  "tier": 1
+ },
+ {
+  "handle": "@sentdex",
+  "name": "sentdex",
+  "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+  "tier": 1
+ },
+ {
+  "handle": "@ShawhinTalebi",
+  "name": "Shaw Talebi",
+  "channel_id": "UCa9gErQ9AE5jT2DZLjXBIdA",
+  "tier": 1
+ },
+ {
+  "handle": "@SimonsInstitute",
+  "name": "Simons Institute for the Theory of Computing",
+  "channel_id": "UCW1C2xOfXsIzPgjXyuhkw9g",
+  "tier": 1
+ },
+ {
+  "handle": "@stanfordonline",
+  "name": "Stanford Online",
+  "channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+  "tier": 1
+ },
+ {
+  "handle": "@statquest",
+  "name": "StatQuest with Josh Starmer",
+  "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
+  "tier": 1
+ },
+ {
+  "handle": "@TwoMinutePapers",
+  "name": "Two Minute Papers",
+  "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+  "tier": 1
+ },
+ {
+  "handle": "@umarjamilai",
+  "name": "Umar Jamil",
+  "channel_id": "UCtAcpQcYerN8xxZJYTfWBMw",
+  "tier": 1
+ },
+ {
+  "handle": "@YannicKilcher",
+  "name": "Yannic Kilcher",
+  "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+  "tier": 1
+ },
+ {
+  "handle": "@1littlecoder",
+  "name": "1littlecoder",
+  "channel_id": "UCpV_X0VrL8-jg3t6wYGS-1g",
+  "tier": 2
+ },
+ {
+  "handle": "@a16z",
+  "name": "a16z",
+  "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+  "tier": 2
+ },
+ {
+  "handle": "@AIAnytime",
+  "name": "AI Anytime",
+  "channel_id": "UC-zVytOQB62OwMhKRi0TDvg",
+  "tier": 2
+ },
+ {
+  "handle": "@AIatMeta",
+  "name": "AI at Meta",
+  "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+  "tier": 2
+ },
+ {
+  "handle": "@AnastasiInTech",
+  "name": "Anastasi In Tech",
+  "channel_id": "UCORX3Cl7ByidjEgzSCgv9Yw",
+  "tier": 2
+ },
+ {
+  "handle": "@anthropic-ai",
+  "name": "Anthropic",
+  "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+  "tier": 2
+ },
+ {
+  "handle": "@AssemblyAI",
+  "name": "AssemblyAI",
+  "channel_id": "UCtatfZMf-8EkIwASXM4ts0A",
+  "tier": 2
+ },
+ {
+  "handle": "@AWSEventsChannel",
+  "name": "AWS Events",
+  "channel_id": "UCdoadna9HFHsxXWhafhNvKw",
+  "tier": 2
+ },
+ {
+  "handle": "@bycloudAI",
+  "name": "bycloud",
+  "channel_id": "UCgfe2ooZD3VJPB6aJAnuQng",
+  "tier": 2
+ },
+ {
+  "handle": "@ByteByteGo",
+  "name": "ByteByteGo",
+  "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
+  "tier": 2
+ },
+ {
+  "handle": "@ByteMonk",
+  "name": "ByteMonk",
+  "channel_id": "UCzCsyvyrq38R6TnztEzOmgg",
+  "tier": 2
+ },
+ {
+  "handle": "@codebasics",
+  "name": "codebasics",
+  "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ",
+  "tier": 2
+ },
+ {
+  "handle": "@ColdFusion",
+  "name": "ColdFusion",
+  "channel_id": "UC4QZ_LsYcvcq7qOsOhpAX4A",
+  "tier": 2
+ },
+ {
+  "handle": "@ColeMedin",
+  "name": "Cole Medin",
+  "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+  "tier": 2
+ },
+ {
+  "handle": "@cursor_ai",
+  "name": "Cursor",
+  "channel_id": "UC6YYHJzM6PhZ2Yey9BQiUaw",
+  "tier": 2
+ },
+ {
+  "handle": "@DaveEbbelaar",
+  "name": "Dave Ebbelaar",
+  "channel_id": "UCn8ujwUInbJkBhffxqAPBVQ",
+  "tier": 2
+ },
+ {
+  "handle": "@DrWaku",
+  "name": "Dr Waku",
+  "channel_id": "UCZf5IX90oe5gdPppMXGImwg",
+  "tier": 2
+ },
+ {
+  "handle": "@Fireship",
+  "name": "Fireship",
+  "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+  "tier": 2
+ },
+ {
+  "handle": "@googlecloudtech",
+  "name": "Google Cloud Tech",
+  "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg",
+  "tier": 2
+ },
+ {
+  "handle": "@GoogleDevelopers",
+  "name": "Google for Developers",
+  "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+  "tier": 2
+ },
+ {
+  "handle": "@GosuCoder",
+  "name": "GosuCoder",
+  "channel_id": "UCQd9wpBDkfQxqxGIBko2fKg",
+  "tier": 2
+ },
+ {
+  "handle": "@DataIndependent",
+  "name": "Greg Kamradt",
+  "channel_id": "UCyR2Ct3pDOeZSRyZH5hPO-Q",
+  "tier": 2
+ },
+ {
+  "handle": "@harvard",
+  "name": "Harvard University",
+  "channel_id": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+  "tier": 2
+ },
+ {
+  "handle": "@IBMTechnology",
+  "name": "IBM Technology",
+  "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ",
+  "tier": 2
+ },
+ {
+  "handle": "@IndyDevDan",
+  "name": "IndyDevDan",
+  "channel_id": "UC_x36zCEGilGpB1m-V4gmjg",
+  "tier": 2
+ },
+ {
+  "handle": "@krishnaik06",
+  "name": "Krish Naik",
+  "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
+  "tier": 2
+ },
+ {
+  "handle": "@kurzgesagt",
+  "name": "Kurzgesagt – In a Nutshell",
+  "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+  "tier": 2
+ },
+ {
+  "handle": "@lastweekinai",
+  "name": "Last Week in AI",
+  "channel_id": "UCKARTq-t5SPMzwtft8FWwnA",
+  "tier": 2
+ },
+ {
+  "handle": "@lexfridman",
+  "name": "Lex Fridman",
+  "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+  "tier": 2
+ },
+ {
+  "handle": "@LlamaIndex",
+  "name": "LlamaIndex",
+  "channel_id": "UCeRjipR4_SsCddq9VZ2AeKg",
+  "tier": 2
+ },
+ {
+  "handle": "@LowLevelTV",
+  "name": "Low Level",
+  "channel_id": "UC6biysICWOJ-C3P4Tyeggzg",
+  "tier": 2
+ },
+ {
+  "handle": "@MIT",
+  "name": "Massachusetts Institute of Technology (MIT)",
+  "channel_id": "UCFe-pfe0a9bDvWy74Jd7vFg",
+  "tier": 2
+ },
+ {
+  "handle": "@NeetCode",
+  "name": "NeetCode",
+  "channel_id": "UC_mYaQAE6-71rjSN6CeCA-g",
+  "tier": 2
+ },
+ {
+  "handle": "@NerdyRodent",
+  "name": "Nerdy Rodent",
+  "channel_id": "UC4-5v-f-xKnbi1yaAuRSi_w",
+  "tier": 2
+ },
+ {
+  "handle": "@NicholasRenotte",
+  "name": "Nicholas Renotte",
+  "channel_id": "UCHXa4OpASJEwrHrLeIzw7Yg",
+  "tier": 2
+ },
+ {
+  "handle": "@Numberphile",
+  "name": "Numberphile",
+  "channel_id": "UCoxcjq-8xIDTYp3uz647V5A",
+  "tier": 2
+ },
+ {
+  "handle": "@NVIDIA",
+  "name": "NVIDIA",
+  "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+  "tier": 2
+ },
+ {
+  "handle": "@OlivioSarikas",
+  "name": "Olivio Sarikas",
+  "channel_id": "UCCKx8mAHiFus-XYQLy_WnaA",
+  "tier": 2
+ },
+ {
+  "handle": "@OpenAI",
+  "name": "OpenAI",
+  "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+  "tier": 2
+ },
+ {
+  "handle": "@engineerprompt",
+  "name": "Prompt Engineering",
+  "channel_id": "UCDq7SjbgRKty5TgGafW8Clg",
+  "tier": 2
+ },
+ {
+  "handle": "@SabineHossenfelder",
+  "name": "Sabine Hossenfelder",
+  "channel_id": "UC1yNl2E66ZzKApQdRuTQ4tw",
+  "tier": 2
+ },
+ {
+  "handle": "@SebastianKamph",
+  "name": "Sebastian Kamph",
+  "channel_id": "UCvKqTb-65iAmXK59sFNKINQ",
+  "tier": 2
+ },
+ {
+  "handle": "@StanfordGSB",
+  "name": "Stanford Graduate School of Business",
+  "channel_id": "UCGwuxdEeCf0TIA2RbPOj-8g",
+  "tier": 2
+ },
+ {
+  "handle": "@TechWithTim",
+  "name": "Tech With Tim",
+  "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+  "tier": 2
+ },
+ {
+  "handle": "@TechAltar",
+  "name": "TechAltar",
+  "channel_id": "UCtZO3K2p8mqFwiKWb9k7fXA",
+  "tier": 2
+ },
+ {
+  "handle": "@TensorFlow",
+  "name": "TensorFlow",
+  "channel_id": "UC0rqucBdTuFTjJiefW5t-IQ",
+  "tier": 2
+ },
+ {
+  "handle": "@AIDailyBrief",
+  "name": "The AI Daily Brief: Artificial Intelligence News",
+  "channel_id": "UCKelCK4ZaO6HeEI1KQjqzWA",
+  "tier": 2
+ },
+ {
+  "handle": "@veritasium",
+  "name": "Veritasium",
+  "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+  "tier": 2
+ },
+ {
+  "handle": "@ycombinator",
+  "name": "Y Combinator",
+  "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+  "tier": 2
+ },
+ {
+  "handle": "@60minutes",
+  "name": "60 Minutes",
+  "channel_id": "UCsN32BtMd0IoByjJRNF12cw",
+  "tier": 3
+ },
+ {
+  "handle": "@AIFoundations",
+  "name": "AI Foundations | Build Your AI Future",
+  "channel_id": "UCkjacit0K65xNEKFyCZP4nQ",
+  "tier": 3
+ },
+ {
+  "handle": "@AIJasonZ",
+  "name": "AI Jason",
+  "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw",
+  "tier": 3
+ },
+ {
+  "handle": "@AIRevolutionX",
+  "name": "AI Revolution",
+  "channel_id": "UC5l7RouTQ60oUjLjt1Nh-UQ",
+  "tier": 3
+ },
+ {
+  "handle": "@AICodeKing",
+  "name": "AICodeKing",
+  "channel_id": "UC0m81bQuthaQZmFbXEY9QSw",
+  "tier": 3
+ },
+ {
+  "handle": "@aitrepreneur",
+  "name": "Aitrepreneur",
+  "channel_id": "UCEAbqW0HFB_UxZoUDO0kJBw",
+  "tier": 3
+ },
+ {
+  "handle": "@AllAboutAI",
+  "name": "All About AI",
+  "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA",
+  "tier": 3
+ },
+ {
+  "handle": "@vrsen",
+  "name": "Arseny Shatokhin",
+  "channel_id": "UCSv4qL8vmoSH7GaPjuqRiCQ",
+  "tier": 3
+ },
+ {
+  "handle": "@BigThink",
+  "name": "Big Think",
+  "channel_id": "UCvQECJukTDE2i6aCoMnS-Vg",
+  "tier": 3
+ },
+ {
+  "handle": "@CNBC",
+  "name": "CNBC",
+  "channel_id": "UCvJJ_dzjViJCoLf5uKUTwoA",
+  "tier": 3
+ },
+ {
+  "handle": "@CodeBullet",
+  "name": "Code Bullet",
+  "channel_id": "UC0e3QhIYukixgh5VVpKHH9Q",
+  "tier": 3
+ },
+ {
+  "handle": "@DavidShapiro",
+  "name": "David Shapiro",
+  "channel_id": "UCRR8R8qK-fCcvfMvPr26BbA",
+  "tier": 3
+ },
+ {
+  "handle": "@futurepedia_io",
+  "name": "Futurepedia",
+  "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+  "tier": 3
+ },
+ {
+  "handle": "@JeffSu",
+  "name": "Jeff Su",
+  "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+  "tier": 3
+ },
+ {
+  "handle": "@KevinStratvert",
+  "name": "Kevin Stratvert",
+  "channel_id": "UCfJT_eYDTmDE-ovKaxVE1ig",
+  "tier": 3
+ },
+ {
+  "handle": "@LiamOttley",
+  "name": "Liam Ottley",
+  "channel_id": "UCui4jxDaMb53Gdh-AZUTPAg",
+  "tier": 3
+ },
+ {
+  "handle": "@LinusTechTips",
+  "name": "Linus Tech Tips",
+  "channel_id": "UCXuqSBlHAE6Xw-yeJA0Tunw",
+  "tier": 3
+ },
+ {
+  "handle": "@mkbhd",
+  "name": "Marques Brownlee",
+  "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
+  "tier": 3
+ },
+ {
+  "handle": "@mreflow",
+  "name": "Matt Wolfe",
+  "channel_id": "UChpleBmo18P08aKCIgti38g",
+  "tier": 3
+ },
+ {
+  "handle": "@MatthewBerman",
+  "name": "Matthew Berman",
+  "channel_id": "UCzi5kcwU8aT4aLR7LcYhfWQ",
+  "tier": 3
+ },
+ {
+  "handle": "@MattVidPro",
+  "name": "MattVidPro",
+  "channel_id": "UC5Wz4fFacYuON6IKbhSa7Zw",
+  "tier": 3
+ },
+ {
+  "handle": "@Mervinpraison",
+  "name": "Mervin Praison",
+  "channel_id": "UCWTyktbw5JYoSBduu8LsBgQ",
+  "tier": 3
+ },
+ {
+  "handle": "@Microsoft",
+  "name": "Microsoft",
+  "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
+  "tier": 3
+ },
+ {
+  "handle": "@nateherk",
+  "name": "Nate Herk | AI Automation",
+  "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "tier": 3
+ },
+ {
+  "handle": "@NetworkChuck",
+  "name": "NetworkChuck",
+  "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+  "tier": 3
+ },
+ {
+  "handle": "@PeterDiamandis",
+  "name": "Peter H. Diamandis",
+  "channel_id": "UCvxm0qTrGN_1LMYgUaftWyQ",
+  "tier": 3
+ },
+ {
+  "handle": "@SkillLeapAI",
+  "name": "Skill Leap AI",
+  "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g",
+  "tier": 3
+ },
+ {
+  "handle": "@TED",
+  "name": "TED",
+  "channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
+  "tier": 3
+ },
+ {
+  "handle": "@aiadvantage",
+  "name": "The AI Advantage",
+  "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
+  "tier": 3
+ },
+ {
+  "handle": "@ThePrimeTimeagen",
+  "name": "The PrimeTime",
+  "channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+  "tier": 3
+ },
+ {
+  "handle": "@TheVerge",
+  "name": "The Verge",
+  "channel_id": "UCddiUEpeqJcYeBxX1IVBKvQ",
+  "tier": 3
+ },
+ {
+  "handle": "@TheAIGRID",
+  "name": "TheAIGRID",
+  "channel_id": "UCbY9xX3_jW5c2fjlZVBI4cg",
+  "tier": 3
+ },
+ {
+  "handle": "@t3dotgg",
+  "name": "Theo - t3․gg",
+  "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
+  "tier": 3
+ },
+ {
+  "handle": "@TroubleChute",
+  "name": "TroubleChute",
+  "channel_id": "UCkih2oVTbXPEpVwE-U7kmHw",
+  "tier": 3
+ },
+ {
+  "handle": "@WesRoth",
+  "name": "Wes Roth",
+  "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
+  "tier": 3
+ },
+ {
+  "handle": "@WIRED",
+  "name": "WIRED",
+  "channel_id": "UCftwRNsjfRo08xYE31tkiyw",
+  "tier": 3
+ },
+ {
+  "handle": "@intheworldofai",
+  "name": "WorldofAI",
+  "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw",
+  "tier": 3
+ }
+]
