@@ -18,7 +18,9 @@ def cls(s): return "hi" if s >= 65 else ("mid" if s >= 45 else "lo")
 def fmt(n): return "–" if n is None else (f"{n/1e6:.1f}M" if n >= 1e6 else f"{n/1e3:.1f}K" if n >= 1e3 else str(n))
 def when(p): return datetime.fromisoformat(p).astimezone(SAST).strftime("%d %b %H:%M SAST")
 SUB = "https://jons-newsletter-8fe92c.beehiiv.com/subscribe"
+YT = "https://www.youtube.com/channel/UCGwEK-DCGMWCs_flcy9oagQ"
 SUBBOX = f"<div class='box'><b>Get the weekly top 10 in your inbox.</b> <a class='btn' href='{SUB}' target='_blank' rel='noopener'>Subscribe free →</a></div>"
+HOMEBOX = f"<div class='box'><b>Get the weekly top 10 in your inbox.</b> <a class='btn' href='{SUB}' target='_blank' rel='noopener'>Subscribe free →</a> <a class='btn' href='{YT}' target='_blank' rel='noopener'>Watch on YouTube →</a></div>"
 
 def slug(h): return re.sub(r"[^a-z0-9]+", "-", h.lower()).strip("-")
 
@@ -28,7 +30,7 @@ def page(title, body, root=""):
 <link rel="stylesheet" href="{root}style.css"></head><body><header><div class="wrap"><nav><a class="logo" href="{root}index.html">Signal<span>Tube</span></a>
 <a href="{root}index.html">Today</a><a href="{root}week.html">Last 7 days</a><a href="{root}leaderboard.html">No-hype leaderboard</a><a href="{root}channels.html">Channels</a>
 <a href="{root}about.html">Methodology</a><a href="{root}newsletter.html">Newsletter</a><a href="{root}advertise.html">Advertise</a></nav></div></header>
-<main class="wrap">{body}</main><footer class="wrap">SignalTube · substance over hype · built by Jon Cameron, South Africa · data from public YouTube RSS feeds · <a href="{SUB}" target="_blank" rel="noopener">Subscribe free to the weekly newsletter</a></footer></body></html>"""
+<main class="wrap">{body}</main><footer class="wrap">SignalTube · substance over hype · built by Jon Cameron, South Africa · data from public YouTube RSS feeds · <a href="{SUB}" target="_blank" rel="noopener">Subscribe free to the weekly newsletter</a> · <a href="{YT}" target="_blank" rel="noopener">SignalTube on YouTube</a></footer></body></html>"""
 
 def card(v, i=None, root=""):
     bd = ", ".join(f"{k} {'+' if x > 0 else ''}{x}" for k, x in v["breakdown"].items() if x and k != "base")
@@ -54,9 +56,9 @@ def build(vids, chans, out, now):
     top = sorted(today, key=lambda v: -v["score"])[:10]
     week = sorted(recent(24 * 7), key=lambda v: -v["score"])
     stamp = now.astimezone(SAST).strftime("%A %d %B %Y, %H:%M SAST")
-    W("index.html", page("Today's top 10", f"<h1>Today's top 10</h1><p class='sub'>Highest-substance AI videos from the last {window} across {len(chans)} channels · updated {stamp}</p>{SUBBOX}"
+    W("index.html", page("Today's top 10", f"<h1>Today's top 10</h1><p class='sub'>Highest-substance AI videos from the last {window} across {len(chans)} channels · updated {stamp}</p>{HOMEBOX}"
       + "".join(card(v, i + 1) for i, v in enumerate(top))
-      + SUBBOX))
+      + HOMEBOX))
     W("week.html", page("Last 7 days", f"<h1>Last 7 days</h1><p class='sub'>{len(week)} videos, ranked by substance score</p>" + "".join(card(v, i + 1) for i, v in enumerate(week[:100]))))
     lb = leaderboard(recent(24 * 30) or vids, chans)
     W("leaderboard.html", page("No-hype leaderboard", "<h1>No-hype leaderboard</h1><p class='sub'>Channels ranked by average substance score of their recent uploads (RSS shows ~15 latest per channel).</p><table><tr><th>#</th><th>Channel</th><th>Avg score</th><th>Videos</th></tr>"
@@ -81,13 +83,13 @@ def newsletter(week, outdir, now):
     md = [f"# SignalTube Weekly – {d}", "", "The 10 most substantive AI videos of the past week, ranked by our substance score.", ""]
     for i, v in enumerate(top, 1):
         md += [f"## {i}. [{v['title']}]({v['url']}) — {v['score']}/100", f"*{v['channel']}* · {fmt(v['views'])} views", "", v["summary"], ""]
-    md += ["---", "Full rankings: https://k8gjj255bp-maker.github.io/signaltube/week.html · Methodology: https://k8gjj255bp-maker.github.io/signaltube/about.html", "", f"Not subscribed yet? Subscribe free: {SUB}", "", "*[Sponsor slot – placeholder]*"]
+    md += ["---", "Full rankings: https://k8gjj255bp-maker.github.io/signaltube/week.html · Methodology: https://k8gjj255bp-maker.github.io/signaltube/about.html", "", f"Not subscribed yet? Subscribe free: {SUB}", "", f"Watch SignalTube on YouTube: {YT}", "", "*[Sponsor slot – placeholder]*"]
     items = "".join(f"""<tr><td style="padding:12px 0;border-bottom:1px solid #eee"><a href="{v['url']}"><img src="{v['thumbnail']}" width="160" style="border-radius:6px;float:left;margin-right:12px"></a>
 <b>{i}. <a href="{v['url']}" style="color:#0b57d0">{E(v['title'])}</a></b> <span style="background:#1f6f3a;color:#fff;border-radius:4px;padding:1px 6px">{v['score']}</span><br>
 <small style="color:#666">{E(v['channel'])} · {fmt(v['views'])} views</small><br>{E(v['summary'])}</td></tr>""" for i, v in enumerate(top, 1))
     h = f"""<!doctype html><html><body style="font-family:Arial,sans-serif;max-width:640px;margin:auto;color:#222"><h1>Signal<span style="color:#1f883d">Tube</span> Weekly</h1>
 <p>{d} · The 10 most substantive AI videos of the past week, with no hype.</p><table width="100%">{items}</table>
-<p style="background:#f3f3f3;padding:10px">[Sponsor slot – placeholder]</p><p><small>See the full rankings at <a href="https://k8gjj255bp-maker.github.io/signaltube/">k8gjj255bp-maker.github.io/signaltube</a>. You're getting this because you subscribed. Forwarded this? <a href="{SUB}">Subscribe free</a>.</small></p></body></html>"""
+<p style="background:#f3f3f3;padding:10px">[Sponsor slot – placeholder]</p><p><small>See the full rankings at <a href="https://k8gjj255bp-maker.github.io/signaltube/">k8gjj255bp-maker.github.io/signaltube</a>. You're getting this because you subscribed. Forwarded this? <a href="{SUB}">Subscribe free</a>. Watch SignalTube on <a href="{YT}">YouTube</a>.</small></p></body></html>"""
     os.makedirs(outdir, exist_ok=True); stem = f"{outdir}/weekly-{now.astimezone(SAST):%Y-%m-%d}"
     open(stem + ".md", "w").write("\n".join(md)); open(stem + ".html", "w").write(h)
     return stem
