@@ -84,7 +84,7 @@ def newsletter(week, outdir, now):
 <small style="color:#666">{E(v['channel'])} · {fmt(v['views'])} views</small><br>{E(v['summary'])}</td></tr>""" for i, v in enumerate(top, 1))
     h = f"""<!doctype html><html><body style="font-family:Arial,sans-serif;max-width:640px;margin:auto;color:#222"><h1>Signal<span style="color:#1f883d">Tube</span> Weekly</h1>
 <p>{d} · The 10 most substantive AI videos of the past week, with no hype.</p><table width="100%">{items}</table>
-<p style="background:#f3f3f3;padding:10px">[Sponsor slot – placeholder]</p><p><small>See the full rankings at signaltube.example. You're getting this because you subscribed.</small></p></body></html>"""
+<p style="background:#f3f3f3;padding:10px">[Sponsor slot – placeholder]</p><p><small>See the full rankings at <a href="https://k8gjj255bp-maker.github.io/signaltube/">k8gjj255bp-maker.github.io/signaltube</a>. You're getting this because you subscribed.</small></p></body></html>"""
     os.makedirs(outdir, exist_ok=True); stem = f"{outdir}/weekly-{now.astimezone(SAST):%Y-%m-%d}"
     open(stem + ".md", "w").write("\n".join(md)); open(stem + ".html", "w").write(h)
     return stem
