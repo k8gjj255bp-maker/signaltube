@@ -32,7 +32,7 @@ def _clean_desc(d):
 def summarize(v, max_chars=260):
     text = re.sub(r"\s+", " ", _clean_desc(v["description"])).strip()
     if not text:
-        return "No description provided by the creator."
+        return "Description unavailable." if v.get("source") == "page" else "No description provided by the creator."
     sents = re.split(r"(?<=[.!?])\s+", text)
     out = ""
     for s in sents[:2]:
@@ -53,7 +53,10 @@ def heuristic(v):
     b["emojis"] = -5 * min(len(EMOJI.findall(t)), 3)
     b["substance_words"] = 4 * min(sum(w in tl or w in d[:400].lower() for w in SUBSTANCE_WORDS), 4)
     clean = _clean_desc(d); n = len(clean.split())
-    b["description_depth"] = -8 if n < 15 else (0 if n < 40 else (6 if n < 120 else 12))
+    if not d.strip() and v.get("source") == "page":
+        b["description_depth"] = 0  # description not fetched (page fallback): neutral, not thin
+    else:
+        b["description_depth"] = -8 if n < 15 else (0 if n < 40 else (6 if n < 120 else 12))
     links = len(re.findall(r"https?://", d))
     b["link_spam"] = -6 if links > 15 else 0
     b["references"] = 6 if re.search(r"arxiv|paper:|doi\.org|github\.com", d, re.I) else 0
