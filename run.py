@@ -13,6 +13,10 @@ def main():
     hist_path = f"{D}/data/videos.json"
     hist = {v["id"]: v for v in json.load(open(hist_path))} if os.path.exists(hist_path) else {}
     for v in vids:
+        old = hist.get(v["id"])
+        if old and v.get("source") == "page":  # page fallback: keep exact date/description from earlier RSS
+            v["published"] = old["published"]
+            if not v["description"]: v["description"] = old.get("description", "")
         hist[v["id"]] = score(v)          # refresh stats + score
     keep = [v for v in hist.values() if now - datetime.fromisoformat(v["published"]) <= timedelta(days=60)]
     os.makedirs(f"{D}/data", exist_ok=True); json.dump(keep, open(hist_path, "w"))
